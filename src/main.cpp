@@ -189,7 +189,7 @@ namespace Roof {
       roof_state = STATE_UNKNOWN;
     }
     if ((millis()-cmd_timer) > 300) {
-      //stop();
+      stop();
     }
   }
 
